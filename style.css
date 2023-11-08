@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+body{
+    background-image: url('./assets/3327.jpg');
+    
+
+}
+
+h1{
+    position: relative;
+    left: 600px;
+    top: 10px;
+    display: inline-block;
+    
+    
+}
+
+#logo{
+    height: 30px;
+    width: 30px;
+}
+
+form{
+    position: relative;
+    display: inline-block;
+    left: 300px;
+    top: 200px;
+    font-size: 1.3em ;
+}
+
+input{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    height: 25px;
+
+}
+
+p{
+    position: relative;
+    display: inline-block ;
+    left: 5 0px;
+    top:250px;
+}
+ul{
+    position: relative;
+    display: inline-block ;
+    right: 65px;
+    top:450px;
+}
+
+#button{
+    position: relative;
+    background-color: #F6FDC3;
+    border-radius: 5px;
+    height: 25px;
+    width: 80px;
+    top: 500px;
+    right: 520px;
+    border: 50px;
+}
+
+#name{
+    position: relative;
+    margin-left: 25px;
+    
+}
+
+#button1{
+    position: relative;
+    display: inline-block;
+    top: 450px;
+    left: 500px; 
+    background-color: black;    
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    border: 2px;
+
+        
+}
+
+footer{
+    position: relative;
+    top: 640px;
+    left:330px;
+    display: flex;
+    display: inline-block;
+    font-size: x-large;
+}
+
+#result,#moves{
+    position: relative;
+    display: inline-block;
+    top: 350px;
+    left: 640px;
+    
+}
+
+
+
+ 

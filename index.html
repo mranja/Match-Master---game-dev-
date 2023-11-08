@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATCH MASTER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>MATCH<img id="logo" src="./assets/puzzle.png" alt="logo">MASTER</h1>
+    <form id="userinput" action="/action_page.php">
+        <label for="name"><strong>Name:</strong></label>
+        <input type="text" id="name" ><br><br>
+        <label for="nickname"><strong>Nickname:</strong></label>
+        <input type="text" id="nickname"><br><br>
+    </form>
+    <p><strong>Instructions :- </strong>  
+        <ul>
+        <li><strong>Please fill above details.</strong> </li><br>
+        
+        <li><strong>Try to flip all cards within the given time of 40 seconds .</strong> </li><br>
+        
+        <li> <strong>Try to remember the cards you've seen to make matches.</strong></li><br>
+        
+        <li> <strong>Player should filp two cards for each turn , if both card are same it will be faced up , <br>If not it will face down .</strong> </li><br>
+        
+        <li><b>As the game progresses, try to make quick matches to clear the board faster.</b></li>    
+            
+        </ul>
+   
+    </p>
+    <button id="button"><b>Start Game</b></button>
+    <script src="script.js"></script>
+    <script src="./game.js"></script>
+</body>
+</html>
