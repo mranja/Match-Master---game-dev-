@@ -44,7 +44,7 @@ input{
 p{
     position: relative;
     display: inline-block ;
-    left: 5 0px;
+    /* left: 50px; */
     top:250px;
 }
 ul{
